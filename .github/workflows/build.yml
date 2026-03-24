@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6375
+          kernel-url: https://github.com/RedMist20/android_kernel_motorola_sm6375
           kernel-dir: kernel
           kernel-branch: lineage-23.2
           config: fogo-nethunter_defconfig
