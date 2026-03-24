@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/LineageOS/android_kernel_motorola_sm6375
           kernel-dir: kernel
           kernel-branch: lineage-23.2
-          config: vendor/fogo-nethunter_defconfig
+          config: fogo-nethunter_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
