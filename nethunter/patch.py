@@ -30,7 +30,7 @@ def parse_makefile_version(makefile_path):
         with open(makefile_path, 'r', encoding='utf-8', errors='ignore') as f:
             for line in f:
                 if line.startswith('VERSION'):
-                    version = line.split('=', 1)[1].strip()
+                    version = 4.19
                 elif line.startswith('PATCHLEVEL'):
                     patchlevel = line.split('=', 1)[1].strip()
                 if version is not None and patchlevel is not None:
