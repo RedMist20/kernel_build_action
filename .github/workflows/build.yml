@@ -29,4 +29,4 @@ jobs:
           disable-lto: true
           anykernel3: true
           nethunter: true
-          nethunter-patch: true
+          nethunter-patch: false
