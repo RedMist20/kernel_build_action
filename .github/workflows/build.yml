@@ -29,3 +29,4 @@ jobs:
           anykernel3: true
           nethunter: true
           nethunter-patch: false
+          anykernel3: true
